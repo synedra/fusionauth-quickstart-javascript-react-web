@@ -1,6 +1,7 @@
 image: 
   file: Dockerfile
 
+
 tasks:
 
   # ------------------------------------
@@ -17,3 +18,14 @@ tasks:
   - name: working-terminal
     init: |
       echo "Welcome to the FusionAuth GitPod instance"
+
+ports:
+  - port: 8888
+    onOpen: open-preview
+    visibility: public
+  - port: 3000
+    onOpen: ignore 
+    visibility: public
+  - port: 9011
+    onOpen: ignore
+    visibility: public

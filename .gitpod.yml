@@ -18,8 +18,8 @@ tasks:
       echo "Welcome to the FusionAuth GitPod instance"
 
 ports:
-  - port: 8888
-    onOpen: open-preview
+  - port: 5432
+    onOpen: ignore
     visibility: public
   - port: 3000
     onOpen: ignore 
@@ -27,5 +27,3 @@ ports:
   - port: 9011
     onOpen: ignore
     visibility: public
-  - port: 5432
-    onOpen: ignore

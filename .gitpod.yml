@@ -15,14 +15,3 @@ tasks:
   - name: working-terminal
     init: |
       echo "Welcome to the FusionAuth GitPod instance"
-
-ports:
-  - port: 5432
-    onOpen: ignore
-    visibility: public
-  - port: 3000
-    onOpen: ignore 
-    visibility: public
-  - port: 9011
-    onOpen: preview
-    visibility: public

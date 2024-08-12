@@ -10,3 +10,7 @@ RUN set -ex; \
 	  apt-get install -y --no-install-recommends \
         postgresql-contrib\
         gh
+
+EXPOSE 8888
+EXPOSE 9011
+EXPOSE 3000

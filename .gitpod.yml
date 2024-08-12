@@ -23,5 +23,4 @@ ports:
     onOpen: ignore 
     visibility: public
   - port: 9011
-    onOpen: open-browser
     visibility: public

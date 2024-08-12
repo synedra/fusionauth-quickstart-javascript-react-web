@@ -24,5 +24,4 @@ ports:
     onOpen: ignore 
     visibility: public
   - port: 9011
-    onOpen: preview
     visibility: public

@@ -13,8 +13,8 @@ tasks:
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-quickstart-javascript-react-web/kickstart/kickstart.json"
     init: |
       psql -c "CREATE USER postgres WITH SUPERUSER PASSWORD 'password';"
-      bash -c "curl -fsSL https://raw.githubusercontent.com/FusionAuth/fusionauth-install/main/install.sh | bash -s -"
     command: |
+      bash -c "curl -fsSL https://raw.githubusercontent.com/FusionAuth/fusionauth-install/main/install.sh | bash -s -"
       fusionauth/bin/startup.sh
       gp open README.md
 

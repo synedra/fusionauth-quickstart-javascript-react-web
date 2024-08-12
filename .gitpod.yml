@@ -26,3 +26,6 @@ ports:
   - port: 9011
     onOpen: ignore
     visibility: public
+  - name: database
+   port: 5432
+   onOpen: ignore

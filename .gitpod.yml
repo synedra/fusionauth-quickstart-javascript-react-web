@@ -8,6 +8,7 @@ tasks:
   - name: fusionauth-server
     env: 
       DATABASE_URL: "jdbc:postgresql://localhost:5432/fusionauth"
+      FUSIONAUTH_APP_KICKSTART_FILE: "kickstart.demo"
     init: |
       apt-get install gh
       psql -c "CREATE USER postgres WITH SUPERUSER PASSWORD 'password';"

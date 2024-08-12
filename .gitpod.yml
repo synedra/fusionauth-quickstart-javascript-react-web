@@ -1,5 +1,7 @@
+image: 
+  file: Dockerfile
+
 tasks:
-  
 
   # ------------------------------------
   # Start FusionAuth in Docker

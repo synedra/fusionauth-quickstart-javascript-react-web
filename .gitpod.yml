@@ -6,11 +6,12 @@ tasks:
   # ------------------------------------
   - name: fusionauth-server
     init: |
-      sh -c "curl -fsSL https://raw.githubusercontent.com/FusionAuth/fusionauth-install/main/install.sh | sh"
+      bash -c "curl -fsSL https://raw.githubusercontent.com/FusionAuth/fusionauth-install/main/install.sh | bash -s -"
 
   # --------------------------------------
   #  SETUP CQLSH and Create DB Workshop
+
   # --------------------------------------
   - name: working-terminal
-    command: |
+    init: |
       echo "Welcome to the FusionAuth GitPod instance"

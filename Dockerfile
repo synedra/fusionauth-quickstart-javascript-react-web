@@ -1,13 +1,8 @@
 FROM gitpod/workspace-full
 
-USER root
+USER postgres
 
-RUN set -ex; \
-	apt-get update; \
-    apt-get upgrade -y && \
-	  apt-get install -y --no-install-recommends \
-        postgresql-contrib\
-        gh
+RUN psql -c "ALTER USER postgres PASSWORD 'password';"
 
 EXPOSE 8888
 EXPOSE 3000

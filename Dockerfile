@@ -8,4 +8,4 @@ RUN set -ex; \
 	apt-get update; \
     apt-get upgrade -y && \
 	  apt-get install -y --no-install-recommends \
-        postgres-contrib
+        postgresql-contrib

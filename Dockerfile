@@ -12,5 +12,4 @@ RUN set -ex; \
         gh
 
 EXPOSE 8888
-EXPOSE 9011
 EXPOSE 3000

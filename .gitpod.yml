@@ -33,6 +33,12 @@ ports:
   - port: 9012
     onOpen: ignore
     visibility: public
+  - port: 9020
+    onOpen: ignore
+    visibility: public
+  - port: 9021
+    onOpen: ignore
+    visibility: public
   - port: 5432
     onOpen: ignore
     visibility: public

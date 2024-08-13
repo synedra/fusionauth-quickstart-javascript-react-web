@@ -1,4 +1,5 @@
-image: gitpod/workspace-postgres
+image: 
+  file: Dockerfile
 
 tasks:
 
@@ -20,8 +21,6 @@ tasks:
   # --------------------------------------
   - name: working-terminal
     openMode: split-right
-    command:
-      sleep 3 && psql -c "CREATE USER postgres WITH SUPERUSER PASSWORD 'password';"
 
 ports:
   - port: 3000

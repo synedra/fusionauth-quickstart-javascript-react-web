@@ -14,7 +14,7 @@ tasks:
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-quickstart-javascript-react-web/kickstart/kickstart.json"
       INSTALL_SEARCH: 1
     init: |
-      /workspace/fusionauth-quickstart-javascript-react-web/install.sh    
+      bash /workspace/fusionauth-quickstart-javascript-react-web/install.sh    
     command: |
       fusionauth/bin/startup.sh
       gp open README.md

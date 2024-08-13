@@ -17,6 +17,9 @@ tasks:
       bash /workspace/fusionauth-quickstart-javascript-react-web/install.sh    
     command: |
       fusionauth/bin/startup.sh
+      cd complete-application
+      npm install
+      npm run dev
       gp open README.md
 
   # --------------------------------------
@@ -28,6 +31,9 @@ ports:
     onOpen: ignore 
     visibility: public
   - port: 9011
+    onOpen: ignore
+    visibility: public
+  - port: 3000
     onOpen: open-preview
     visibility: public
   - port: 9012

@@ -16,8 +16,8 @@ tasks:
     init: |
       bash /workspace/fusionauth-quickstart-javascript-react-web/install.sh    
     command: |
-      export REDIRECT_URL=`gp url 3000`
-      export FUSIONAUTH_URL = `gp url 9011`
+      echo "REACT_APP_REDIRECT=" + `gp url 3000` >> .env
+      echo "REACT_APP_FUSIONAUTH=" + `gp url 9011` >> .env
       fusionauth/bin/startup.sh
       gp open README.md
       cd complete-application

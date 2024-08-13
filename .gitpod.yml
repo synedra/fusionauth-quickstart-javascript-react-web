@@ -14,7 +14,8 @@ tasks:
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-quickstart-javascript-react-web/kickstart/kickstart.json"
       INSTALL_SEARCH: 1
     init: |
-      bash /workspace/fusionauth-quickstart-javascript-react-web/install.sh    
+      bash /workspace/fusionauth-quickstart-javascript-react-web/install.sh   
+      bash /workspace/fusionauth-quickstart-javascript-react-web/ports.sh
     command: |
       echo "REACT_APP_REDIRECT=" `gp url 3000` >> .env
       echo "REACT_APP_FUSIONAUTH=" `gp url 9011` >> .env

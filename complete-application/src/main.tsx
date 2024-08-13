@@ -10,9 +10,9 @@ import {
 
 const config: FusionAuthProviderConfig = {
   clientId: "e9fdb985-9173-4e01-9d73-ac2d60d1dc8e",
-  redirectUri: process.env.REACT_APP_REDIRECT,
-  postLogoutRedirectUri: process.env.REACT_APP_REDIRECT + "/logged-out",
-  serverUrl: process.env.REACT_APP_FUSIONAUTH,
+  redirectUri: REACT_APP_REDIRECT,
+  postLogoutRedirectUri: REACT_APP_REDIRECT/logged-out",
+  serverUrl: REACT_APP_FUSIONAUTH,
   shouldAutoFetchUserInfo: true,
   shouldAutoRefresh: true,
   onRedirect: (state?: string) => {

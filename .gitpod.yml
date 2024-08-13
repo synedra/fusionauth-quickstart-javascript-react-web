@@ -12,9 +12,8 @@ tasks:
       DATABASE_ROOT_USERNAME: "postgres"
       DATABASE_ROOT_PASSWORD: "password"
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-quickstart-javascript-react-web/kickstart/kickstart.json"
-    init: |
-      bash -c "curl -fsSL https://raw.githubusercontent.com/FusionAuth/fusionauth-install/main/install.sh | bash -s -"
     command: |
+      bash -c "curl -fsSL https://raw.githubusercontent.com/FusionAuth/fusionauth-install/main/install.sh | bash -s -"
       fusionauth/bin/startup.sh
       gp open README.md
 

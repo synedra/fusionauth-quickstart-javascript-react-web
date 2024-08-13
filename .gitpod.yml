@@ -12,7 +12,6 @@ tasks:
       DATABASE_ROOT_PASSWORD: "password"
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-quickstart-javascript-react-web/kickstart/kickstart.json"
     init: |
-      sleep 3;
       bash -c "curl -fsSL https://raw.githubusercontent.com/FusionAuth/fusionauth-install/main/install.sh | bash -s -"
     command: |
       fusionauth/bin/startup.sh
@@ -22,7 +21,7 @@ tasks:
   - name: working-terminal
     openMode: split-right
     command:
-      psql -c "CREATE USER postgres WITH SUPERUSER PASSWORD 'password';"
+      sleep 3 && psql -c "CREATE USER postgres WITH SUPERUSER PASSWORD 'password';"
 
 ports:
   - port: 3000

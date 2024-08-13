@@ -27,9 +27,6 @@ tasks:
     openMode: split-right
 
 ports:
-  - port: 3000
-    onOpen: ignore 
-    visibility: public
   - port: 9011
     onOpen: ignore
     visibility: public

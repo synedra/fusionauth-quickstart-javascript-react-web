@@ -17,10 +17,11 @@ tasks:
       bash /workspace/fusionauth-quickstart-javascript-react-web/install.sh    
     command: |
       fusionauth/bin/startup.sh
+      gp open README.md
       cd complete-application
       npm install
       npm run dev
-      gp open README.md
+     
 
   # --------------------------------------
   - name: working-terminal

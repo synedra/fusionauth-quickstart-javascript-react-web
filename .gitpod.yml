@@ -12,8 +12,10 @@ tasks:
       DATABASE_ROOT_USERNAME: "postgres"
       DATABASE_ROOT_PASSWORD: "password"
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-quickstart-javascript-react-web/kickstart/kickstart.json"
+      INSTALL_SEARCH: 1
+    init: |
+      /workspace/fusionauth-quickstart-javascript-react-web/install.sh    
     command: |
-      /workspace/fusionauth-quickstart-javascript-react-web/install.sh
       fusionauth/bin/startup.sh
       gp open README.md
 

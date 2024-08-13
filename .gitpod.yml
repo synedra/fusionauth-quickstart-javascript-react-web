@@ -9,7 +9,7 @@ tasks:
   - name: fusionauth-server
     env: 
       DATABASE_URL: "jdbc:postgresql://localhost:5432/fusionauth"
-      DATABASE_ROOT_USERNAME: "postgres"
+      DATABASE_ROOT_USERNAME: "fusionauth"
       DATABASE_ROOT_PASSWORD: "password"
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-quickstart-javascript-react-web/kickstart/kickstart.json"
       INSTALL_SEARCH: 1

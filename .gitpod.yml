@@ -32,7 +32,7 @@ tasks:
 
 ports:
   - port: 9011
-    onOpen: ignore
+    onOpen: open-preview
     visibility: public
   - port: 3000
     onOpen: open-preview

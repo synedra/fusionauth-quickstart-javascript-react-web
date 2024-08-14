@@ -1,7 +1,7 @@
 <!-- TOP -->
 <div class="top">
   <div class="scenario-title-section">
-    <span class="scenario-title">Run FusionAuth plus a React Application<br></span>
+    <span class="scenario-title">Run FusionAuth plus Changebank, a React Application<br></span>
     <span class="scenario-subtitle">ℹ️ For technical support, please contact us via <a href="mailto:kirsten.hunter@fusionauth.io">email</a>.</span>
   </div>
 </div>

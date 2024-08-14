@@ -6,7 +6,7 @@ tasks:
   # ------------------------------------
   # Start FusionAuth in Docker
   # ------------------------------------
-  - name: fusionauth-server
+  - name: fusionauth
     env: 
       DATABASE_URL: "jdbc:postgresql://localhost:5432/fusionauth"
       DATABASE_ROOT_USERNAME: "gitpod"

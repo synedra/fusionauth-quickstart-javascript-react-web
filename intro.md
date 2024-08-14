@@ -3,6 +3,7 @@
 ## Download and install FusionAuth
 
 **Objectives**
+
 In this scenario we will
 
 1. Install FusionAuth

@@ -25,7 +25,7 @@ In this step we will
 # 1. Install FusionAuth
 
 ```
-bash -c install.sh && bash wait.sh
+install.sh
 ```
 
 # 2. Start FusionAuth
@@ -33,8 +33,7 @@ bash -c install.sh && bash wait.sh
 Start up the service:
 
 ```
-fusionauth/bin/startup.sh
-bash wait.sh
+fusionauth/bin/startup.sh && wait.sh
 ```
 
 <!-- NAVIGATION -->

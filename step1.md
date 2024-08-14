@@ -1,19 +1,10 @@
-<!-- NAVIGATION -->
-<div id="navigation-top" class="navigation-top">
- <a href='command:katapod.loadPage?[{"step":"intro"}]'
-   class="btn btn-dark navigation-bottom-left">⬅️ Back - Intro
- </a>
-<span class="step-count"> Step 1 of 3</span>
- <a href='command:katapod.loadPage?[{"step":"step2"}]' 
-    class="btn btn-dark navigation-top-right">Next ➡️ Starting the React Application
-  </a>
-</div>
+# Run FusionAuth plus Changebank, a React Application
 
-<!-- CONTENT -->
+[⬅️ Back - Intro](intro.md)
 
-# Run FusionAuth plus Changebank, a React Application<br></span>
+[Next ➡️ Starting the React Application](step2.md)
 
-<div class="step-title">Download and install fusionauth</div>
+## Download and install FusionAuth
 
 **Objectives**
 In this step we will
@@ -42,12 +33,6 @@ fusionauth/bin/startup.sh && /usr/bin/bash wait.sh
 gp preview `gp url 9011`
 ```
 
-<!-- NAVIGATION -->
-<div id="navigation-bottom" class="navigation-bottom">
- <a href='command:katapod.loadPage?[{"step":"intro"}]'
-   class="btn btn-dark navigation-bottom-left">⬅️ Back - Intro
- </a>
- <a href='command:katapod.loadPage?[{"step":"step2"}]'
-    class="btn btn-dark navigation-bottom-right">Next ➡️ Starting the React Application
-  </a>
-</div>
+[⬅️ Back - Intro](intro.md)
+
+[Next ➡️ Starting the React Application](step2.md)

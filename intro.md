@@ -40,9 +40,9 @@ bash wait.sh
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
  <a href='command:katapod.loadPage?[{"step":"intro"}]'
-   class="btn btn-dark navigation-bottom-left">⬅️ Back - Overview
+   class="btn btn-dark navigation-bottom-left">⬅️ Back - Intro
  </a>
  <a href='command:katapod.loadPage?[{"step":"step2-astra"}]'
-    class="btn btn-dark navigation-bottom-right">Next ➡️ Tables in the REST API
+    class="btn btn-dark navigation-bottom-right">Next ➡️ Starting the React Application
   </a>
 </div>

@@ -16,15 +16,7 @@ tasks:
     init: |
       bash /workspace/fusionauth-quickstart-javascript-react-web/install.sh   
       bash /workspace/fusionauth-quickstart-javascript-react-web/ports.sh
-    command: |
-      gp open README.md
-      fusionauth/bin/startup.sh
-      echo "Waiting for the FusionAuth server to start up"
-      bash wait.sh
-      echo "Starting up the ChangeBank React application"
-      cd complete-application
-      npm install
-      npm run dev
+      
 
 ports:
   - port: 9011

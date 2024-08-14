@@ -28,7 +28,7 @@ In this step we will
 bash -c install.sh && bash wait.sh
 ```
 
-# 2. Create the database
+# 2. Start FusionAuth
 
 Start up the service:
 

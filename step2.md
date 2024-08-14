@@ -23,12 +23,13 @@ npm install
 ```
 npm run dev &
 gp open `gp url 3000`
+```
 
 # 3. Login as Administrator
 
-`
+```
 Username: admin@example.com
 Password: password
-`
+```
 
 [⬅️ Back - Installing FusionAuth](step1.md)             [Next ➡️ Creating a New User](step3.md)

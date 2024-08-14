@@ -1,19 +1,8 @@
-<!-- NAVIGATION -->
-<div id="navigation-top" class="navigation-top">
- <a href='command:katapod.loadPage?[{"step":"step1"}]'
-   class="btn btn-dark navigation-bottom-left">⬅️ Back - Installing FusionAuth
- </a>
-<span class="step-count"> Step 1 of 3</span>
- <a href='command:katapod.loadPage?[{"step":"step3"}]' 
-    class="btn btn-dark navigation-top-right">Next ➡️ Creating a New User
-  </a>
-</div>
+# Run FusionAuth plus Changebank, a React Application
 
-<!-- CONTENT -->
+[⬅️ Back - Installing FusionAuth](step1.md)             [Next ➡️ Creating a New User](step3.md)
 
-# Run FusionAuth plus Changebank, a React Application<br></span>
-
-<div class="step-title">Download and install fusionauth</div>
+## Install and Visit React Application
 
 **Objectives**
 In this step we will
@@ -36,17 +25,10 @@ npm run dev &
 gp open `gp url 3000`
 
 # 3. Login as Administrator
+
 `
 Username: admin@example.com
 Password: password
 `
 
-<!-- NAVIGATION -->
-<div id="navigation-bottom" class="navigation-bottom">
- <a href='command:katapod.loadPage?[{"step":"step1"}]'
-   class="btn btn-dark navigation-bottom-left">⬅️ Back - Installing FusionAuth
- </a>
- <a href='command:katapod.loadPage?[{"step":"step3"}]'
-    class="btn btn-dark navigation-bottom-right">Next ➡️ Starting the React Application
-  </a>
-</div>
+[⬅️ Back - Installing FusionAuth](step1.md)             [Next ➡️ Creating a New User](step3.md)

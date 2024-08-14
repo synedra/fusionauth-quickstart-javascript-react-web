@@ -34,12 +34,16 @@ npm install
 ```
 npm run dev &
 gp open `gp url 3000`
-```
 
+# 3. Login as Administrator
+`
+Username: admin@example.com
+Password: password
+`
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
- <a href='command:katapod.loadPage?[{"step":"intro"}]'
+ <a href='command:katapod.loadPage?[{"step":"step1"}]'
    class="btn btn-dark navigation-bottom-left">⬅️ Back - Installing FusionAuth
  </a>
  <a href='command:katapod.loadPage?[{"step":"step3"}]'

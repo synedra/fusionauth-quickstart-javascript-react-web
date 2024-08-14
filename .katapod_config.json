@@ -1,0 +1,22 @@
+{
+    "layout": {
+        "terminals": [
+          {
+            "id": "fusionauth",
+            "name": "main"
+          }
+        ]
+      },
+    "navigation": {
+      "onLoadCommands": {
+       "step1": {
+          "start-shell": [
+            {
+                "command": "echo \"Setting up local config for FusionAuth.",
+                 "maxInvocations": "unlimited"
+            }
+          ]
+      }
+    }
+  }
+  

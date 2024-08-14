@@ -1,23 +1,14 @@
-
-
-<!-- CONTENT -->
-
 # Run FusionAuth plus Changebank, a React Application<br></span>
 
-<div class="step-title">Download and install FusionAuth</div>
+## Download and install FusionAuth
 
 **Objectives**
 In this scenario we will
 
-1. Install FusionAuth
-2. Start up the Application
-3. (optional) Create a new User
-4. (optional) Add User to the Application
-5. Check FusionAuth logs
+1.Install FusionAuth
+2.Start up the Application
+3.(optional) Create a new User
+4.(optional) Add User to the Application
+5.Check FusionAuth logs
 
-<!-- NAVIGATION -->
-<div id="navigation-bottom" class="navigation-bottom">
-
- <a href='intro.md' class="btn btn-dark navigation-bottom-right">Next ➡️ Installing FusionAuth
-  </a>
-</div>
+[Next ➡️ Installing FusionAuth](step1.md)

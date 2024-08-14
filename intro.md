@@ -18,7 +18,7 @@ In this scenario we will
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
 
- <a href='command:katapod.loadPage?[{"step":"step1"}]'
+ <a href='intro.md'>
     class="btn btn-dark navigation-bottom-right">Next ➡️ Installing FusionAuth
   </a>
 </div>

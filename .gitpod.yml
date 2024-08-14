@@ -17,12 +17,11 @@ tasks:
       bash /workspace/fusionauth-quickstart-javascript-react-web/install.sh   
       bash /workspace/fusionauth-quickstart-javascript-react-web/ports.sh
     command: |
-      echo "REACT_APP_REDIRECT=" `gp url 3000` >> .env
-      echo "REACT_APP_FUSIONAUTH=" `gp url 9011` >> .env
       fusionauth/bin/startup.sh
-      gp open README.md
       cd complete-application
       npm install
+      gp open README.md
+      sleep 3
       npm run dev
      
 

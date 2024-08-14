@@ -25,11 +25,6 @@ tasks:
       cd complete-application
       npm install
       npm run dev
-     
-
-  # --------------------------------------
-  - name: working-terminal
-    openMode: split-right
 
 ports:
   - port: 9011

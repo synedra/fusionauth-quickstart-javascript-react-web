@@ -20,7 +20,7 @@ tasks:
       gp open README.md
       fusionauth/bin/startup.sh
       echo "Waiting for the FusionAuth server to start up"
-      until curl --output /dev/null --silent --head --fail `gp url 9011`; do printf '.'; sleep 5' done
+      bash wait.sh
       echo "Starting up the ChangeBank React application"
       cd complete-application
       npm install

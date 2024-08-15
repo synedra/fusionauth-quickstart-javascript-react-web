@@ -24,7 +24,7 @@ tasks:
       echo "Starting up the ChangeBank React application"
       cd complete-application
       npm install
-      npm run dev
+      npm run dev &
       gp preview `gp url 9011`
      
 

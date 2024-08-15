@@ -2,22 +2,26 @@
 
 [⬅️ Back - Intro](intro.md)
 
-[Next ➡️ Starting the React Application](step2.md)
+[Next ➡️ Logging into Changebank](step2.md)
 
-## Download and install FusionAuth
+## Create New User in FusionAuth
 
 **Objectives**
 In this step we will
 
-1. Download FusionAuth
-2. Start up the service
-3. Visit the UI
+1. Login to FusionAuth
+2. Create a new user
+3. Register the user with the application
 
-# 1. Install FusionAuth
+### 1. Login to FusionAuth
 
-```
-/usr/bin/bash install.sh
-```
+- In the right hand pane, click the lock in the upper right corner of the window.
+- Login to the FusionAuth server with the username 'admin@example.com' and password 'password'
+
+### 2. Create new User
+
+- In the left panel, click "Users"
+- 
 
 # 2. Start FusionAuth
 
@@ -35,4 +39,4 @@ gp preview `gp url 9011`
 
 [⬅️ Back - Intro](intro.md)
 
-[Next ➡️ Starting the React Application](step2.md)
+[Next ➡️ Logging into Changebank](step2.md)

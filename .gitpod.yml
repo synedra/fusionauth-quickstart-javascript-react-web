@@ -25,6 +25,7 @@ tasks:
       cd complete-application
       npm install
       npm run dev
+      gp preview `gp url 9011`
      
 
   # --------------------------------------
@@ -36,7 +37,7 @@ ports:
     onOpen: ignore
     visibility: public
   - port: 3000
-    onOpen: open-preview
+    onOpen: ignore
     visibility: public
   - port: 9012
     onOpen: ignore

@@ -4,12 +4,20 @@
 
 **Objectives**
 
-In this scenario we will
+To set up this workspace, the following steps are followed:
 
-1. Install FusionAuth
-2. Start up the Application
-3. (optional) Create a new User
-4. (optional) Add User to the Application
-5. Check FusionAuth logs
+# 1. Install FusionAuth
 
-[Next ➡️ Installing FusionAuth](step1.md)
+```
+/usr/bin/bash install.sh
+```
+
+# 2. Start FusionAuth
+
+Start up the service:
+
+```
+fusionauth/bin/startup.sh && /usr/bin/bash wait.sh
+```
+
+

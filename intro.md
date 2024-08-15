@@ -1,5 +1,7 @@
 # Run FusionAuth plus Changebank, a React Application<br></span>
 
+[Next ➡️ Working with FusionAuth](step1.md)
+
 ## Download and install FusionAuth
 
 **Objectives**
@@ -20,4 +22,5 @@ Start up the service:
 fusionauth/bin/startup.sh && /usr/bin/bash wait.sh
 ```
 
+[Next ➡️ Working with FusionAuth](step1.md)
 

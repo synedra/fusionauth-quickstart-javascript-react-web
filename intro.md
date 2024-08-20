@@ -6,8 +6,8 @@ The servers are starting up so you can work with them.  If you are curious about
 
 Once the login screen appears, you can login with the following credentials:
 
-*Username:* admin@example.com
-*Password:* password
+- *Username:* admin@example.com
+- *Password:* password
 
 Once you have logged in you will be able to add a new user and assign them to the application.
 

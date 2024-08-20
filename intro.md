@@ -17,7 +17,9 @@ Once you have logged in you will be able to add a new user and assign them to th
 
 Copy the following command and paste it into the lower right hand terminal (you may need to give permission for the clipboard)
 
-`gp preview `gp url 9011`/admin`
+```
+gp preview `gp url 9011`/admin
+```
 
 # Setup from this repository on your own system
 

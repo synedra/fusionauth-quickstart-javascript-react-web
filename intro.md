@@ -5,11 +5,13 @@
 The servers are starting up so you can work with them.  If you are curious about how to install this on your own system, see this [link](#steps) at the end
 
 The servers use the following ports:
+
 * Fusionauth: 9011, 9012
 * Changebank: 3000
 * Postgres: 5432
 
 Once the login screen appears, you can login with the following credentials:
+
 *Username:* admin@example.com
 *Password:* password
 

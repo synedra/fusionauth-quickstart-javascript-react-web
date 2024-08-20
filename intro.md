@@ -17,7 +17,7 @@ Copy the following command and paste it into the lower right hand terminal (you 
 gp preview `gp url 9011`/admin
 ```
 
-# Setup from this repository on your own system
+# Steps
 
 ## Prerequisites
 

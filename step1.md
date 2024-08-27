@@ -31,11 +31,6 @@ Once the login screen appears, you can login with the following credentials:
 - *Username:* admin@example.com
 - *Password:* password
 
-To start the FusionAuth application, click the next line:
-
-```
-gp preview `gp url 9011`/admin
-```
 
 Once you have logged in you will be able to add a new user and assign them to the application.
 

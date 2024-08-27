@@ -12,7 +12,7 @@
  <a href='command:katapod.loadPage?[{"step":"step1"}]'
    class="btn btn-dark navigation-top-left">⬅️ Back
  </a>
-<span class="step-count"> Step 2 of 4 </span>
+<span class="step-count"> Step 2 of 3 </span>
  <a href='command:katapod.loadPage?[{"step":"step3"}]' 
     class="btn btn-dark navigation-top-right">Next ➡️
   </a>
@@ -31,7 +31,8 @@
 
 ## Register user for application
 
-- On the screen that follows, click "Add registration" to register the user for your application.
+- At the bottom of the screen that follows, click "Add registration" to register the user for your application.
+- If you see a list of users, click the black "Manage" button for the user that you added.
 - Select "Example App" and then click the blue Save button at the top right of the page.
 
 <!-- NAVIGATION -->

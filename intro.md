@@ -3,7 +3,7 @@
   <img class="scenario-academy-logo" src="https://cdn.prod.website-files.com/617b1b1f42c1da41aeae3413/6573599a9ea8c6ccef655afd_primary-logo.png" />
   <div class="scenario-title-section">
     <span class="scenario-title">Jump in to FusionAuth</span>
-    <span class="scenario-subtitle">ℹ️ For technical support, please contact us via <a href="mailto:kirsten.hunter@fusionauth.io">email</a></span>
+    <span class="scenario-subtitle">ℹ️ For support, please contact us via <a href="mailto:kirsten.hunter@fusionauth.io">email</a></span>
   </div>
 </div>
 

@@ -12,6 +12,6 @@
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
        Et voila!  You have added a new user into the system!  From here, you can work on self-registration or OAuth configuration.
-
+     </div>
     </div>
 </main>

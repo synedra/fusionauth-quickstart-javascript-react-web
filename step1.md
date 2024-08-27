@@ -12,7 +12,7 @@
  <a href='command:katapod.loadPage?[{"step":"intro"}]'
    class="btn btn-dark navigation-top-left">⬅️ Back
  </a>
-<span class="step-count"> Step 1 of 7</span>
+<span class="step-count"> Step 1 of 3</span>
  <a href='command:katapod.loadPage?[{"step":"step2"}]' 
     class="btn btn-dark navigation-top-right">Next ➡️
   </a>
@@ -24,7 +24,7 @@
 
 ## Wait a few moments...
 
-The servers are starting up so you can work with them.  
+The servers are starting up so you can work with them.  This usually takes less than a minute, and then the login screen for the FusionAuth UI will appear in the middle column.
 
 Once the login screen appears, you can login with the following credentials:
 

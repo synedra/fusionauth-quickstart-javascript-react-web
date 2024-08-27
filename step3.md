@@ -28,8 +28,9 @@ Click on the command below to switch to the ChangeApp application
 gp preview `gp url 3000`
 ```
 
-Logout from ChangeBank and log in with your new user
+Logout from the admin user in ChangeBank and log in with your new user.
 
+Et voila!  You have added a new user into the system!  Next you can work on self-registration so that users can add themselves to the system.
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">

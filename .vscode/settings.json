@@ -4,7 +4,7 @@
         {
             "*.md": "vscode.markdown.preview.editor",
         }
-    {
+
     "terminal.integrated.tabs.enabled": false,
     "workbench.statusBar.visible": false,
     "workbench.panel.defaultLocation": "right",

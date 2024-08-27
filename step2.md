@@ -33,7 +33,6 @@
 
 - On the screen that follows, click "Add registration" to register the user for your application.
 - Select "Example App" and then click the blue Save button at the top right of the page.
-- Click on the command below to switch to the ChangeApp application
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">

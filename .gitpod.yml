@@ -18,7 +18,6 @@ tasks:
       bash /workspace/fusionauth-quickstart-javascript-react-web/ports.sh
     command: |
       pip3 install httpie 
-      http --session=/workspace/fusionauth-quickstart-javascript-react-web/session.json :9011 Authorization:this_really_should_be_a_long_random_alphanumeric_value_but_this_still_works
       mkdir ~gitpod/.config/httpie
       cp .config/httpie/config.json ~gitpod/.config/httpie
       gp open intro.md

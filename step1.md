@@ -30,8 +30,10 @@ Now you are going to create a basic React application using the [Vite](https://v
 npm create vite@latest changebank -- --template react-ts && cd changebank
 ```
 
-<Aside type="note">
-    The FusionAuth server is configured with the valid redirect URI of localhost:3000. Ensure your changebank app runs on this port by adding `server: { port: 3000 }` to your `vite.config.ts`.
-</Aside>
+Then run the server on port 3000:
+
+```shell
+npm run dev --port=3000
+```
 
 

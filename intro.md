@@ -21,7 +21,7 @@
             </ul>
             <div class="scenario-objectives">In this hands-on lab, you can do either of the following:</div>
             <ul>
-              <li><Build a React application using FusionAuth</li>
+              <li>Build a React application using FusionAuth</li>
                 <li>Check out the pre-built application</li>
             </ul>
       </div>

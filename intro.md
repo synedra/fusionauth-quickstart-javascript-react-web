@@ -19,11 +19,10 @@
               <li><span class="scenario-description-attribute">Difficulty</span>: Beginner</li>
               <li><span class="scenario-description-attribute">Time</span>: 5 minutes</li>
             </ul>
-            <div class="scenario-objectives">In this hands-on lab, you will do the following:</div>
+            <div class="scenario-objectives">In this hands-on lab, you can do either of the following:</div>
             <ul>
-              <li><span class="scenario-objective">Add a new user to the system</li>
-              <li><span class="scenario-objective">Register your new user with an application</li>
-              <li><span class="scenario-objective">Log in to the application with your new user</li>
+              <li><Build a React application using FusionAuth</li>
+                <li>Check out the pre-built application</li>
             </ul>
       </div>
      </div>
@@ -32,17 +31,17 @@
         <div class="scenario-choices">Run FusionAuth</div><br/>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
           <div class="feature col div-choice">
-            <div class="astradb-line1">Use the Web UI for FusionAuth</div>
+            <div class="astradb-line1">Build the application from scratch</div>
             <br />
             <a href='command:katapod.loadPage?[{"step":"step1"}]' class="btn btn-primary">
-              Use the web UI
+              Build the application from scratch
             </a>
           </div>
           <div class="feature col div-choice">
-            <div class="cassandra-line1">Use FusionAuth APIs from the Command Line</div>
+            <div class="cassandra-line1">Jump in with the pre-built application</div>
             <br/>
             <a href='command:katapod.loadPage?[{"step":"step1"}]' class="btn btn-primary">
-              Use APIs from the command line
+              Use the pre-built application
             </a>   
           </div>
         </div>
